@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 10px solid blueviolet;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+input{
+    width: 77%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+li{
+    margin-top: 10px;
+}
+button{
+    margin-left: 10px;
+    width: 40px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: rgb(213, 224, 239);
+    border: 1px solid ;
+}
+#agg{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(177, 250, 135);
+    border: 1px solid rgb(1, 156, 27);
+    border-radius: 5px;
+    margin-left: 0px;
+}
+li {
+    list-style: none;
+}
+hr {
+  margin: 10px 0;
+}
+.contenedor-flex{
+    display: flex;
+    justify-content: space-around;
+}
