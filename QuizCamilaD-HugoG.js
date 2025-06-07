@@ -12,7 +12,6 @@ function addItem() {
         const linea= document.createElement("hr");
 
         elementos.setAttribute("id",contador);
-        botonRealizado.setAttribute("class",contador);
         botonEliminar.setAttribute("class",contador);
         botonRealizado.setAttribute("onclick","marcarItem(this)");
         botonEliminar.setAttribute("onclick","eliminarItem(this)")
